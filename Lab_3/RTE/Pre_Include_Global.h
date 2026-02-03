@@ -2,8 +2,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: BaseProject_2022_07_26
- * RTE configuration: BaseProject_2022_07_26.rteconfig
+ * Project: Lab_3
+ * RTE configuration: Lab_3.rteconfig
 */
 #ifndef PRE_INCLUDE_GLOBAL_H
 #define PRE_INCLUDE_GLOBAL_H

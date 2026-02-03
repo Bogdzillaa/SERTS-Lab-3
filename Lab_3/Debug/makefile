@@ -33,7 +33,7 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Lab_3
+BUILD_ARTIFACT_NAME := BaseProject_2023_07_31
 BUILD_ARTIFACT_EXTENSION := axf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
@@ -44,19 +44,19 @@ BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ART
 all: main-build
 
 # Main-build Target
-main-build: Lab_3.axf
+main-build: BaseProject_2023_07_31.axf
 
 # Tool invocations
-Lab_3.axf: $(OBJS) C:\Users\Bogdan\ Cook\git\Lab_3\Lab_3/cmsis_rte_STM32F407VGTx.sct $(USER_OBJS) $(LIBS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+BaseProject_2023_07_31.axf: $(OBJS) C:\Users\Bogdan\ Cook\Desktop\Oklahoma\ Christian\OC\ '25-'26\Semester\ II\SERTS\ARM\ DS\ Projects\BaseProject_2023_07_31/cmsis_rte_STM32F407VGTx.sct $(USER_OBJS) $(LIBS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Arm Linker 6'
-	armlink.exe --entry=Reset_Handler --scatter="C:\Users\Bogdan Cook\git\Lab_3\Lab_3/cmsis_rte_STM32F407VGTx.sct" --info=sizes -o "Lab_3.axf" $(OBJS) $(USER_OBJS) "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM4.lib" "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/FileSystem/Lib/ARM/FS_LFN_CM3_L.lib" "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/USB/Lib/ARM/USB_CM3_L.lib" "C:/Users/Bogdan Cook/git/Lab_3/Lab_3/src/libPDMFilter_CM4_Keil.lib"
+	armlink.exe --entry=Reset_Handler --scatter="C:\Users\Bogdan Cook\Desktop\Oklahoma Christian\OC '25-'26\Semester II\SERTS\ARM DS Projects\BaseProject_2023_07_31/cmsis_rte_STM32F407VGTx.sct" --info=sizes -o "BaseProject_2023_07_31.axf" $(OBJS) $(USER_OBJS) "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM4.lib" "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/FileSystem/Lib/ARM/FS_LFN_CM3_L.lib" "C:/Users/Bogdan Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/USB/Lib/ARM/USB_CM3_L.lib" "C:/Users/Bogdan Cook/Desktop/Oklahoma Christian/OC '25-'26/Semester II/SERTS/ARM DS Projects/BaseProject_2023_07_31/src/libPDMFilter_CM4_Keil.lib"
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES) $(OBJS) $(C_DEPS) Lab_3.axf 
+	-$(RM) $(EXECUTABLES) $(OBJS) $(C_DEPS) BaseProject_2023_07_31.axf 
 	-@echo ' '
 
 .PHONY: all clean dependents main-build

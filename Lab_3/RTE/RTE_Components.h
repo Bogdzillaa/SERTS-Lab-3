@@ -2,8 +2,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: BaseProject_2022_07_26
- * RTE configuration: BaseProject_2022_07_26.rteconfig
+ * Project: Lab_3
+ * RTE configuration: Lab_3.rteconfig
 */
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H

@@ -37,8 +37,6 @@ void Init_Thread (void) {
 
 // Thread function
 
-
-
 void delay(void){
 	int32_t j;
 	for(j=0;j<20000000;j++){};
@@ -55,5 +53,7 @@ void Thread_1(void const *arg){
 	}
 } // Thread_1
 
+
+}
 
 
