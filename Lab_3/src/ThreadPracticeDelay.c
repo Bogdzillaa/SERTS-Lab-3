@@ -54,6 +54,4 @@ void Thread_1(void const *arg){
 } // Thread_1
 
 
-}
-
 

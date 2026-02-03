@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM4.lib C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/FileSystem/Lib/ARM/FS_LFN_CM3_L.lib C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/USB/Lib/ARM/USB_CM3_L.lib C:/Users/Bogdan\ Cook/Desktop/Oklahoma\ Christian/OC\ '25-'26/Semester\ II/SERTS/ARM\ DS\ Projects/BaseProject_2023_07_31/src/libPDMFilter_CM4_Keil.lib
+LIBS := C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM4.lib C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/FileSystem/Lib/ARM/FS_LFN_CM3_L.lib C:/Users/Bogdan\ Cook/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/USB/Lib/ARM/USB_CM3_L.lib C:/Users/Bogdan\ Cook/git/Lab_3/Lab_3/src/libPDMFilter_CM4_Keil.lib
 

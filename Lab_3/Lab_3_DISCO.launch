@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.arm.debug.cmsis.launch">
+    <mapAttribute key="AverageDurationTracker">
+        <mapEntry key="*Fetching Data Model" value="110918"/>
+        <mapEntry key="*updating registers" value="69117400"/>
+        <mapEntry key="*updating variables" value="58100"/>
+        <mapEntry key="AddEventObserver" value="203759"/>
+        <mapEntry key="Evaluate" value="27851361"/>
+        <mapEntry key="areCachesAvailable" value="587400"/>
+        <mapEntry key="compute execution mode" value="343200"/>
+        <mapEntry key="continue" value="1177595112"/>
+        <mapEntry key="core" value="24186750"/>
+        <mapEntry key="disassemble" value="15109514"/>
+        <mapEntry key="evaluate address" value="908740"/>
+        <mapEntry key="get capabilities" value="155815"/>
+        <mapEntry key="get cwd" value="163650"/>
+        <mapEntry key="get execution addresss" value="297089"/>
+        <mapEntry key="get source lines" value="496678"/>
+        <mapEntry key="getValidEncodings" value="1815400"/>
+        <mapEntry key="initialize command help" value="19663061"/>
+        <mapEntry key="interrupt" value="22666575"/>
+        <mapEntry key="list breakpoint options" value="116956"/>
+        <mapEntry key="list breakpoints" value="94009"/>
+        <mapEntry key="list instruction sets" value="76136"/>
+        <mapEntry key="list signals" value="555883"/>
+        <mapEntry key="list watchpoint options" value="107626"/>
+        <mapEntry key="list watchpoints" value="106633"/>
+        <mapEntry key="set CWD" value="853693"/>
+        <mapEntry key="set debug-from" value="811600"/>
+        <mapEntry key="start" value="12339800"/>
+        <mapEntry key="target reset" value="7901950"/>
+    </mapAttribute>
     <stringAttribute key="CLOCK_SPEED" value="10MHz"/>
     <stringAttribute key="CMSIS_DCORE" value="Cortex-M4"/>
     <stringAttribute key="CMSIS_EXE_FILE" value=""/>
@@ -60,6 +90,18 @@
     <booleanAttribute key="SWJ" value="true"/>
     <stringAttribute key="ULP_CONFIG" value="C:\Users\Bogdan Cook\Development Studio Workspace\.metadata\.plugins\com.arm.debug.cmsis\DS-MDK\STM32F4xx_DFP_STM32F407VGTx\ulp-config.txt"/>
     <stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints order=&quot;ALPHA&quot;&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+        <listEntry value="&lt;Next Instruction&gt;"/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+        <listEntry value="100"/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+        <listEntry value=""/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+        <listEntry value=""/>
+    </listAttribute>
     <stringAttribute key="config_db_connection_keys" value="FILES.SELECTED_DEBUG_OPEATION rvi_address connection_type CMSIS_PROJ"/>
     <stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
     <stringAttribute key="config_db_platform_name" value="STM32F4xx_DFP_STM32F407VGTx"/>
@@ -69,6 +111,21 @@
     <booleanAttribute key="connectOnly" value="true"/>
     <stringAttribute key="connection_type" value="ST-Link"/>
     <booleanAttribute key="debugSequenceLogging" value="false"/>
+    <listAttribute key="debugger.view.DisassemblyView:current">
+        <listEntry value="&lt;Next Instruction&gt;"/>
+        <listEntry value="100"/>
+    </listAttribute>
+    <stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView/&gt;&#10;&lt;/page&gt;&#10;"/>
+    <listAttribute key="debugger.view.MemoryView:current">
+        <listEntry value=""/>
+        <listEntry value=""/>
+    </listAttribute>
+    <stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;134&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;203&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
+    <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
+    <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
+    <stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;197&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;137&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
+    <booleanAttribute key="debugger.view.register.DrawAsHex" value="false"/>
+    <booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
     <stringAttribute key="dtsl_config" value="DtslScript_DebugAndOnChipTrace"/>
     <stringAttribute key="dtsl_config_script" value="C:\Users\Bogdan Cook\Development Studio Workspace\.metadata\.plugins\com.arm.debug.cmsis\DS-MDK\STM32F4xx_DFP_STM32F407VGTx\dtsl_config_script.py"/>
     <stringAttribute key="dtsl_options_file" value=""/>
@@ -76,6 +133,6 @@
     <intAttribute key="launch_configuration_version" value="3"/>
     <stringAttribute key="os_extension_id" value="com.arm.debug.os.rtx"/>
     <booleanAttribute key="preReset" value="false"/>
-    <stringAttribute key="rvi_address" value=""/>
+    <stringAttribute key="rvi_address" value="57FF72066683485511340267"/>
     <stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
 </launchConfiguration>
